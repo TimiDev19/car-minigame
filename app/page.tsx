@@ -407,7 +407,7 @@ export default function Home() {
       if (checkCollision()) {
         setRunning(false);
         cancelAnimationFrame(animationFrame);
-        alert("Game Over! Score: " + score);
+        alert("Game Over!");
         return;
       }
 
